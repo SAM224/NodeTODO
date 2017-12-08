@@ -3,6 +3,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var config = require('./config');
+var setupController = require('./controllers/setupController');
 
 var port = process.env.PORT || 3000;
 
@@ -15,6 +16,7 @@ app.get('/', (req, res) => {
 });
 
 mongoose.connect(config.getDbConnextionString());
+setupController(app);
 
 app.listen(port, () => {
     console.log(`

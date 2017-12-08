@@ -8,6 +8,6 @@ var todoScema = new mongoose.Schema
     hasAttachment: Boolean
 });
 
-var Todos = mongoose.model('Todos', todo);
+var Todos = mongoose.model('Todos', todoScema);
 
 module.exports = Todos;
