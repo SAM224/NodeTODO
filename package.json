@@ -1,0 +1,27 @@
+{
+  "name": "NodeTODO",
+  "version": "1.0.0",
+  "description": "a nodejs web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAM224/NodeTODO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SAM224/NodeTODO/issues"
+  },
+  "homepage": "https://github.com/SAM224/NodeTODO#readme",
+  "devDependencies": {
+    "body-parser": "1.18.2",
+    "chalk": "2.3.0",
+    "ejs": "2.5.7",
+    "express": "4.16.2"
+  }
+}
