@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "server": "nodemon app.js",
+    "encrypt": "encrypt config/config.json config/config.json.encrypted",
+    "decrypt": "decrypt config/config.json.encrypted config/config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +27,13 @@
     "ejs": "2.5.7",
     "express": "4.16.2",
     "mongoose": "4.13.6"
+  },
+  "dependencies": {
+    "config-leaf": "0.3.0",
+    "body-parser": "1.18.2",
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "mongoose": "4.13.6"
+
   }
 }
